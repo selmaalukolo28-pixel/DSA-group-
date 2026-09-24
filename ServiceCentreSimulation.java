@@ -95,10 +95,12 @@ public class ServiceCentreSimulation {
 
     public static void quickSort(int[] arr, int low, int high) {
         if (low >= high) {
-            int pivot = arr[high];
+            int comparisons = 0;
+        int pivot = arr[high];
         int i = low - 1;
         
         for (int j = low; j < high; j++) {
+            comparisons++;
             if (arr[j] < pivot) {
                 i++;
                 int temp = arr[i];
@@ -260,8 +262,7 @@ public class ServiceCentreSimulation {
                             int[] original = createArray(size);
                             
                            int[] sel = new int[original.length];
-                            
-                            selectionSort(sel, size); // Just run it plainly!
+                            selectionSort(sel, size);
                             
                             int[] ins = new int[original.length];
                             insertionSort(ins, size );
