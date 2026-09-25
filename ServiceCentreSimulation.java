@@ -141,9 +141,9 @@ public class ServiceCentreSimulation {
                 System.out.println("        CAMPUS SERVICE CENTRE           ");
                 System.out.println("========================================");
                 System.out.println("1. Add student to waiting queue");
-                System.out.println("2. Serve next student (remove from queue)");
+                System.out.println("2. Serve next student ");
                 System.out.println("3. Display waiting students");
-                System.out.println("4. Add student service record (Linked List)");
+                System.out.println("4. Add student service record ");
                 System.out.println("5. Display student service records");
                 System.out.println("6. Search for student record");
                 System.out.println("7. Remove student record");
