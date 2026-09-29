@@ -95,12 +95,12 @@ public class ServiceCentreSimulation {
 
     public static void quickSort(int[] arr, int low, int high) {
         if (low >= high) {
-            int comparisons = 0;
+  
         int pivot = arr[high];
         int i = low - 1;
         
         for (int j = low; j < high; j++) {
-            comparisons++;
+
             if (arr[j] < pivot) {
                 i++;
                 int temp = arr[i];

@@ -4,9 +4,9 @@
  * This is a standalone exercise and is not wired into the service-centre menu.
  */
 public class PostfixEvaluator {
-    private double[] stackArray;
+    private final double[] stackArray;
     private int top;
-    private int capacity;
+    private final int capacity;
 
     public PostfixEvaluator(int capacity) {
         this.capacity = capacity;

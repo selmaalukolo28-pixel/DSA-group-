@@ -17,7 +17,6 @@ public class DailyStatistics {
     public void serviceTime(int minutes) {
         if (count == serviceTime.length) {
             System.out.println("Array full. Cannot add more service times.");
-            return;
         }
         serviceTime[count] = minutes;
         count++;
